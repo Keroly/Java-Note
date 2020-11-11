@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc219fc2-4cf6-4df1-96a9-677c8fa1644c" name="Default Changelist" comment="commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.idea" />
+  </component>
+  <component name="ProjectId" id="1k8obhWBNeX9dIHX2tZGQsJ1J2V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Java-Note" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc219fc2-4cf6-4df1-96a9-677c8fa1644c" name="Default Changelist" comment="" />
+      <created>1605091652198</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605091652198</updated>
+      <workItem from="1605091663499" duration="614000" />
+      <workItem from="1605092335460" duration="1992000" />
+      <workItem from="1605094378274" duration="559000" />
+      <workItem from="1605094999045" duration="1401000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1605095143767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605095143767</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1060" y="514" key="#Project_Structure" timestamp="1605092673205">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state x="-1060" y="514" key="#Project_Structure/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1605092673205" />
+    <state width="1037" height="559" key="GridCell.Tab.0.bottom" timestamp="1605094937630">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1037" height="559" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1605094937630" />
+    <state width="1037" height="559" key="GridCell.Tab.0.center" timestamp="1605094937630">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1037" height="559" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1605094937630" />
+    <state width="1037" height="559" key="GridCell.Tab.0.left" timestamp="1605094937630">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1037" height="559" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1605094937630" />
+    <state width="1037" height="559" key="GridCell.Tab.0.right" timestamp="1605094937630">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1037" height="559" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1605094937630" />
+    <state x="-1060" y="514" key="SettingsEditor" timestamp="1605094281075">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state x="-1060" y="514" key="SettingsEditor/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1605094281075" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1605095153157">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1605095153157" />
+  </component>
+</project>
