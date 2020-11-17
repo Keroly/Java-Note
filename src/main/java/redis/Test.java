@@ -7,5 +7,6 @@ public class Test {
         Jedis jedis = new Jedis("101.200.211.66", 6379);
         jedis.auth("123456");
         System.out.println(jedis.ping());
+
     }
 }
