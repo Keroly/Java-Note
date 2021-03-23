@@ -28,7 +28,7 @@ class MyData {
 1. 验证 volatile的可见性
     1.1 假如 number变量之前没有 volatile关键字修饰, 修改对主线程不可见
     1.2 若有 volatile修饰，体现了可见性
-2. 验证 volatile的原子性
+2. 验证 volatile的非原子性
     2.1 不可分割，完整性
     2.2 volatile不保证原子性
     2.3 解决原子性方法： synchronized 或者 AtomicInteger
