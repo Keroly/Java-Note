@@ -19,6 +19,7 @@ public class SingletonDemo {
         return instance;
     }
 */
+    // synchronized可以解决，但是没必要锁这么多代码，太重了，降低并发性
     // DCL (Double Check lOCK) 双重校验锁
     public static SingletonDemo getInstance() {
         if (instance == null) {
