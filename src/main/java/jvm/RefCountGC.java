@@ -1,5 +1,6 @@
 package jvm;
 
+// 循环引用
 public class RefCountGC {
     private byte[] bigsize = new byte[2 * 1024 * 1024]; // 这个属性是为了占用内存
     Object instance = null;
