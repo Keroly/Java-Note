@@ -1,4 +1,4 @@
-package juc;
+package collection;
 
 /*
 * 集合类 不安全的问题
