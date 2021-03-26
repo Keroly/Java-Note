@@ -1,4 +1,4 @@
-package thread;
+package juc;
 
 /*
 * 集合类 不安全的问题
