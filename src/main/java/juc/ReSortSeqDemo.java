@@ -1,4 +1,4 @@
-package thread;
+package juc;
 
 public class ReSortSeqDemo {
     // 应加 volatile
