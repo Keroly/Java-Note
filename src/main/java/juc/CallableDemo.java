@@ -7,7 +7,7 @@ import java.util.concurrent.FutureTask;
 class MyThread1 extends Thread {
     @Override
     public void run() {
-
+        System.out.println("");
     }
 }
 
