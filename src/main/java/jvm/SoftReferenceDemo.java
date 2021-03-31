@@ -2,7 +2,7 @@ package jvm;
 
 import java.lang.ref.SoftReference;
 /*
-* 调整虚拟机参数
+* 调整虚拟机参数，观察内存不够 软引用被回收
 * -Xms5m -Xmx5m -XX:+PrintGCDetails
 *
 * */
