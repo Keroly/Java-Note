@@ -1,7 +1,7 @@
 package jvm;
 
 /*
-* linux系统下 默认一个进程不超过1024个线程
+* linux系统下 非 root用户 默认一个进程不超过1024个线程
 * */
 
 import java.util.concurrent.TimeUnit;
