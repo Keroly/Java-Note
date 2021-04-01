@@ -11,7 +11,7 @@ public class StringTest {
         String str3 = "hello";
         System.out.println(str1 == str2);   // false
         System.out.println(str1 == str3);   // false
-        System.out.println(str2 == str3);   // false
+        System.out.println(str2 == str3);   // true
 
         String m = "a";
         String n = "b";
@@ -27,5 +27,6 @@ public class StringTest {
         System.out.println(x == h); // true
         System.out.println(y == h); // false
         System.out.println(z == h); // false
+
     }
 }
