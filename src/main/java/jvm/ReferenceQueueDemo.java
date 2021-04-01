@@ -22,5 +22,6 @@ public class ReferenceQueueDemo {
         System.out.println(o1);
         System.out.println(weakReference.get());
         System.out.println(referenceQueue.poll());
+
     }
 }
