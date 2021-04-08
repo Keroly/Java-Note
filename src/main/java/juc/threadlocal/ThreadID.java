@@ -1,4 +1,4 @@
-package juc.ThreadLocal;
+package juc.threadlocal;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
