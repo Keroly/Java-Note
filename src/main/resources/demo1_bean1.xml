@@ -4,6 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
      <!--配置 User对象创建-->
-    <bean id = "user" class = "spring5.User"></bean>
+    <bean id = "user" class = "spring5.demo1.User"></bean>
+
+
 
 </beans>
