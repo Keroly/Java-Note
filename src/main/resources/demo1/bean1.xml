@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
      <!--配置 User对象创建-->
     <bean id = "user" class = "spring5.demo1.User"></bean>
 
 
-    <!--  set方式注入属性  -->
+<!--    set方式注入属性-->
     <bean id = "book" class = "spring5.demo1.Book">
         <property name="bname" value="1"></property>
         <property name="bauthor" value="2"></property>
         <property name="address" value="3"></property>
     </bean>
+
+<!--    p名称空间 + set方式  -->
+<!--    <bean id = "book" class = "spring5.demo1.Book" p:bname="1" p:address="2" p:bauthor="3">-->
+<!--    </bean>-->
 
     <!--  有参构造函数注入属性  -->
     <bean id = "orders" class = "spring5.demo1.Orders">
@@ -20,8 +25,35 @@
         <constructor-arg name="address" value="2"></constructor-arg>
     </bean>
 
+    <!--  外部 Bean  -->
+    <bean id="userDao" class="spring5.demo1.dao.UserDaoImpl"></bean>
+
+    <!--  service中注入userDao对象  -->
+    <bean id="userService" class="spring5.demo1.service.UserService">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+
+
+<!--    &lt;!&ndash;  内部 Bean  &ndash;&gt;-->
+<!--    <bean id="emp" class="spring5.demo1.bean.Emp">-->
+<!--        <property name="ename" value="1"></property>-->
+<!--        <property name="gender" value="2"></property>-->
+<!--        <property name="dept">-->
+<!--            <bean id="dept" class="spring5.demo1.bean.Dept" p:dname="A"></bean>-->
+<!--        </property>-->
+<!--    </bean>-->
 
 
 
+    <bean id="emp" class="spring5.demo1.bean.Emp">
+        <property name="ename" value="1"></property>
+        <property name="gender" value="2"></property>
+        <!--  级联赋值  -->
+        <property name="dept" ref="dept"></property>
+        <property name="dept.dname" value="Z"></property>
+    </bean>
 
+    <bean id="dept" class="spring5.demo1.bean.Dept">
+        <property name="dname" value="B"></property>
+    </bean>
 </beans>
