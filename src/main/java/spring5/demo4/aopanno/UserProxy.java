@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class UserProxy {
 
     //相同切入点抽取
-    @Pointcut(value = "execution(* com.atguigu.spring5.aopanno.User.add(..))")
+    @Pointcut(value = "execution(* spring5.demo4.aopanno.User.add(..))")
     public void pointdemo() {
 
     }
@@ -25,25 +25,25 @@ public class UserProxy {
     }
 
     //后置通知（返回通知）
-    @AfterReturning(value = "execution(* com.atguigu.spring5.aopanno.User.add(..))")
+    @AfterReturning(value = "execution(* spring5.demo4.aopanno.User.add(..))")
     public void afterReturning() {
         System.out.println("afterReturning.........");
     }
 
     //最终通知
-    @After(value = "execution(* com.atguigu.spring5.aopanno.User.add(..))")
+    @After(value = "execution(* spring5.demo4.aopanno.User.add(..))")
     public void after() {
         System.out.println("after.........");
     }
 
     //异常通知
-    @AfterThrowing(value = "execution(* com.atguigu.spring5.aopanno.User.add(..))")
+    @AfterThrowing(value = "execution(* spring5.demo4.aopanno.User.add(..))")
     public void afterThrowing() {
         System.out.println("afterThrowing.........");
     }
 
     //环绕通知
-    @Around(value = "execution(* com.atguigu.spring5.aopanno.User.add(..))")
+    @Around(value = "execution(* spring5.demo4.aopanno.User.add(..))")
     public void around(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         System.out.println("环绕之前.........");
 

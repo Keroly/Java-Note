@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Order(1)
 public class PersonProxy {
     //后置通知（返回通知）
-    @Before(value = "execution(* com.atguigu.spring5.aopanno.User.add(..))")
+    @Before(value = "execution(* spring5.demo4.aopanno.User.add(..))")
     public void afterReturning() {
         System.out.println("Person Before.........");
     }

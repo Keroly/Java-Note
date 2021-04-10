@@ -13,7 +13,7 @@ public class TestAop {
     @Test
     public void testAopAnno() {
         ApplicationContext context =
-                new ClassPathXmlApplicationContext("bean1.xml");
+                new ClassPathXmlApplicationContext("demo4/bean1.xml");
         User user = context.getBean("user", User.class);
         user.add();
     }
@@ -21,7 +21,7 @@ public class TestAop {
     @Test
     public void testAopXml() {
         ApplicationContext context =
-                new ClassPathXmlApplicationContext("bean2.xml");
+                new ClassPathXmlApplicationContext("demo4/bean2.xml");
         Book book = context.getBean("book", Book.class);
         book.buy();
     }
