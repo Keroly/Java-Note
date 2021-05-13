@@ -1,9 +1,8 @@
-package juc.zerocopy;
+package zerocopy;
 
 import java.lang.ref.PhantomReference;
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
-import java.lang.ref.WeakReference;
 
 public class PhantomRefTest {
     public static void main(String[] args) throws InterruptedException {

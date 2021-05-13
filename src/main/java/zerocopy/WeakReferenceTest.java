@@ -1,4 +1,4 @@
-package juc.zerocopy;
+package zerocopy;
 
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
